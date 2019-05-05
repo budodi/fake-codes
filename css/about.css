@@ -16,6 +16,11 @@
   width: 16%;
 }
 
+#team {
+  padding-top: 50px;
+  width: 12%;
+}
+
 .about-us {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -47,4 +52,21 @@ p.more {
   text-align: center;
   width: 80%;
   margin: auto;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 50px; 
+  width: 90%;
+  margin: auto;
+}
+
+.team-imgs {
+  width: 220px;
+  height: 240px;
+}
+
+h5 {
+  margin: -0.0em;
 }
