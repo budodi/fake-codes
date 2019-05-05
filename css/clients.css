@@ -1,0 +1,29 @@
+h2 {
+  border-bottom: double 5px;
+  margin: 50px auto;
+  width: 15%;
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10% 0;
+  min-height: 200px;
+  background-color: #98afc7;
+ 
+}
+
+.border {
+  border-radius: 50%;
+}
+
+#solidfy {
+  border: 3px solid white;
+}
+
+#forloop {
+  height: 250px;
+}
